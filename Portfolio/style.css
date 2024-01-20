@@ -1,0 +1,84 @@
+body {
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #5e5e5e;
+    color: #e9e2e2;
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(132, 8, 233, 0.278);
+    color: #f8d9d9;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #333;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+section {
+    padding: 2rem;
+}
+
+.certificat,
+.about,
+.skills,
+.project-tile,
+.connect {
+    background-color: #242424;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.certificat h2,
+.about h2,
+.skills h2,
+.connect h2,
+.project-tile h2,
+.project-tile h3,
+.project-tile h4 {
+    color: #8c00ff;
+}
+
+.project-tile p {
+    color: #b1b0b0;
+}
+
+.certificat a,
+.project-tile a,
+.connect a {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    width: 90px;
+    background-color: hsl(267, 98%, 53%);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.certificat a:hover,
+.project-tile a:hover,
+.connect a:hover {
+    background-color: #0f1b28;
+}
