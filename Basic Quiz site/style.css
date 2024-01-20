@@ -1,0 +1,146 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.below-header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 4en;
+}
+
+
+.question {
+     /* Initially hide all question containers */
+    text-align: left ;
+    max-width: 1000px; /* Set the maximum width of the container */
+    margin: 100px auto;/* Center the container horizontally */
+    padding: 20px; /* Add some padding for better readability */
+    background-color: #777777; /* Background color for the container */
+    border: 1px solid #ddd; /* Border for the container */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(175, 94, 94, 0.394);  
+    font-size: 4vh;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin: 10px 0;
+}
+.diagram img {
+    max-width: 30%; /* Make sure the image doesn't exceed its container */
+    height: auto; /* Maintain the image's aspect ratio */
+  }
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.submit-button:hover {
+    background-color: #57e410ce;
+}
+.submit-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:  #45a049;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 600px) {
+    .body {
+        padding: 10px;
+    }
+}
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn23 {
+    background-image: linear-gradient(
+      to right,
+      #009245,
+      #fcee21,
+      #00a8c5,
+      #d9e021
+    );
+    box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+  }
